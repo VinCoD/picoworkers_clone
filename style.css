@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --accent-color:#22ab59;
+    --primary-color:#e7faef ;
+    --secondary-color: #30394d;
+}
+
+body{
+    background-color: var(--main-color);
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.nav-list-1 ul{
+    display: flex;
+    flex-direction: column;
+    
+}
